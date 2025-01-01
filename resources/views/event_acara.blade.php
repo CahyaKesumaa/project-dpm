@@ -1,7 +1,7 @@
+@section('page-title', 'Berita Acara')
 @extends('layout.layout-main')
-@section('page-title','Sertifikat')
 @section('main')
-<H1 class="text-xl font-bold text-black-800 text-center pt-6"> SERTIFIKAT DPM  </H1>
+<H1 class="text-xl font-bold text-black-800 text-center pt-6"> BERITA ACARA KEGIATAN </H1>
   <!-- Card Blog -->
 <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
     <!-- Grid -->
@@ -20,7 +20,7 @@
         </div>
         <div class="mt-auto flex border-t border-gray-200 divide-x divide-gray-200">
           <a class="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-ee-xl bg-white text-gray-800 shadow-sm hover:bg-gray-50 focus:outline-none focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none" href="#">
-            Download
+            Tampilkan Kegiatan
           </a>
         </div>
       </div>
@@ -40,7 +40,7 @@
         </div>
         <div class="mt-auto flex border-t border-gray-200 divide-x divide-gray-200">
           <a class="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-ee-xl bg-white text-gray-800 shadow-sm hover:bg-gray-50 focus:outline-none focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none" href="#">
-            Download
+            Tampilkan Kegiatan
           </a>
         </div>
       </div>
@@ -60,7 +60,7 @@
         </div>
         <div class="mt-auto flex border-t border-gray-200 divide-x divide-gray-200">
           <a class="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-ee-xl bg-white text-gray-800 shadow-sm hover:bg-gray-50 focus:outline-none focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none" href="#">
-            Download
+            Tampilkan Kegiatan
           </a>
         </div>
       </div>
@@ -80,7 +80,7 @@
         </div>
         <div class="mt-auto flex border-t border-gray-200 divide-x divide-gray-200">
           <a class="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-ee-xl bg-white text-gray-800 shadow-sm hover:bg-gray-50 focus:outline-none focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none" href="#">
-            Download
+            Tampilkan Kegiatan
           </a>
         </div>
       </div>
@@ -100,7 +100,7 @@
         </div>
         <div class="mt-auto flex border-t border-gray-200 divide-x divide-gray-200">
           <a class="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-ee-xl bg-white text-gray-800 shadow-sm hover:bg-gray-50 focus:outline-none focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none" href="#">
-            Download
+            Tampilkan Kegiatan
           </a>
         </div>
       </div>
@@ -109,4 +109,4 @@
     <!-- End Grid -->
   </div>
   <!-- End Card Blog -->
-  @endsection
+@endsection
