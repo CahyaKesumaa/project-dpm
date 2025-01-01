@@ -4,7 +4,7 @@
             class="relative max-w-[85rem] w-full md:flex md:items-center md:justify-between md:gap-3 mx-auto px-4 sm:px-6 lg:px-8 py-2">
             <!-- Logo w/ Collapse Button -->
             <div class="flex items-center justify-between">
-                <a class="flex-none font-semibold text-xl text-black focus:outline-none focus:opacity-80" href="/"
+                <a class="flex-none font-semibold text-xl text-black focus:outline-none focus:opacity-80" href="{{ route('main') }}"
                     aria-label="Brand">
                     <img class="h-[50px]" src="{{ asset('img/LOGO DPM-PM.png') }}" alt="">
                 </a>
@@ -43,7 +43,7 @@
                     class="overflow-hidden overflow-y-auto max-h-[75vh] [&::-webkit-scrollbar]:w-2 [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-track]:bg-gray-100 [&::-webkit-scrollbar-thumb]:bg-gray-300">
                     <div class="py-2 md:py-0 flex flex-col md:flex-row md:items-center md:justify-end gap-0.5 md:gap-1">
                         <a class="p-2 flex items-center text-sm hover:text-blue-500 focus:outline-none focus:text-blue-600 {{ Route::is('main') ? "text-blue-600" : "text-gray-800" }}"
-                            href="/" aria-current="page">
+                            href="{{ route('main') }}" aria-current="page">
                             <svg class="shrink-0 size-4 me-3 md:me-2 block md:hidden" xmlns="http://www.w3.org/2000/svg"
                                 width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -51,11 +51,11 @@
                                 <path
                                     d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
                             </svg>
-                            Dashboard
+                            Home
                         </a>
 
                         <a class="p-2 flex items-center text-sm  hover:text-blue-500 focus:outline-none focus:text-blue-500 {{ Route::is('peraturan') ? "text-blue-600" : "text-gray-800" }}"
-                            href="/peraturan">
+                            href="{{ route('peraturan') }}">
                             <svg class="shrink-0 size-4 me-3 md:me-2 block md:hidden" xmlns="http://www.w3.org/2000/svg"
                                 width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -95,13 +95,13 @@
                                 aria-labelledby="hs-header-classic-dropdown">
                                 <div class="py-1 md:px-1 space-y-0.5">
                                     <a class="py-1.5 px-2 flex items-center text-sm text-gray-800 hover:text-blue-500 focus:outline-none focus:text-gray-500"
-                                        href="beritaacara">
+                                        href="{{ route('event.acara') }}">
                                         Berita Acara
                                     </a>
 
                                     <a class="py-1.5 px-2 flex items-center text-sm text-gray-800 hover:text-blue-500 focus:outline-none focus:text-gray-500"
-                                        href="sertifikat">
-                                        Certificate
+                                        href="{{ route('event.sertifikat') }}">
+                                        Sertifikat
                                     </a>
                                 </div>
                             </div>
