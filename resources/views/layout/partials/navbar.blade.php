@@ -42,7 +42,7 @@
                 <div
                     class="overflow-hidden overflow-y-auto max-h-[75vh] [&::-webkit-scrollbar]:w-2 [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-track]:bg-gray-100 [&::-webkit-scrollbar-thumb]:bg-gray-300">
                     <div class="py-2 md:py-0 flex flex-col md:flex-row md:items-center md:justify-end gap-0.5 md:gap-1">
-                        <a class="p-2 flex items-center text-sm hover:text-blue-500 focus:outline-none focus:text-blue-600 {{ Route::is('main') ? "text-blue-600" : "text-gray-800" }}"
+                        <a class="p-2 flex items-center text-sm hover:text-blue-500 focus:outline-none focus:text-blue-600 {{ Route::is('main') ? "text-blue-600 font-bold" : "text-gray-800" }}"
                             href="{{ route('main') }}" aria-current="page">
                             <svg class="shrink-0 size-4 me-3 md:me-2 block md:hidden" xmlns="http://www.w3.org/2000/svg"
                                 width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
@@ -54,7 +54,7 @@
                             Home
                         </a>
 
-                        <a class="p-2 flex items-center text-sm  hover:text-blue-500 focus:outline-none focus:text-blue-500 {{ Route::is('peraturan') ? "text-blue-600" : "text-gray-800" }}"
+                        <a class="p-2 flex items-center text-sm  hover:text-blue-500 focus:outline-none focus:text-blue-500 {{ Route::is('peraturan') ? "text-blue-600 font-bold" : "text-gray-800" }}"
                             href="{{ route('peraturan') }}">
                             <svg class="shrink-0 size-4 me-3 md:me-2 block md:hidden" xmlns="http://www.w3.org/2000/svg"
                                 width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
@@ -69,7 +69,7 @@
                         <div
                             class="hs-dropdown [--strategy:static] md:[--strategy:fixed] [--adaptive:none] [--is-collapse:true] md:[--is-collapse:false] ">
                             <button id="hs-header-classic-dropdown" type="button"
-                                class="hs-dropdown-toggle w-full p-2 flex items-center hover:text-blue-500 focus:outline-none focus:text-blue-500 {{ Route::is('event*') ? "text-sm text-blue-600" : "text-sm text-gray-800" }}"
+                                class="hs-dropdown-toggle w-full p-2 flex items-center hover:text-blue-500 focus:outline-none focus:text-blue-500 {{ Route::is('event*') ? "text-sm text-blue-600 font-bold" : "text-sm text-gray-800" }}"
                                 aria-haspopup="menu" aria-expanded="false" aria-label="Dropdown">
                                 <svg class="shrink-0 size-4 me-3 md:me-2 block md:hidden"
                                     xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"

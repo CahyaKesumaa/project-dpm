@@ -4,7 +4,9 @@
     <div class="grid md:grid-cols-2 gap-12">
         <div class="lg:w-3/4">
             <h2 class="text-3xl text-gray-800 font-bold lg:text-4xl">
-                Dewan Perwakilan Mahasiswa ( DPM - PM) ITB STIKOM Bali
+                Dewan Perwakilan Mahasiswa ( DPM - PM) 
+                <br>
+                ITB STIKOM Bali
             </h2>
             <p class="mt-3 text-gray-800">
                 Visi dan Misi kami merupakan pedoman lanjutan dari AD/ART Pemerintahan Mahasiswa yang sudah
@@ -13,19 +15,7 @@
             <p class="mt-5">
                 <a class="inline-flex items-center gap-x-1 text-sm text-blue-600 decoration-2 hover:underline focus:outline-none focus:underline font-medium"
                     href="#">
-                    Visi DPM-PM
-                    <svg class="shrink-0 size-4 transition ease-in-out group-hover:translate-x-1 group-focus:translate-x-1"
-                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round">
-                        <path d="m9 18 6-6-6-6" />
-                    </svg>
-                </a>
-            </p>
-            <p class="mt-5">
-                <a class="inline-flex items-center gap-x-1 text-sm text-blue-600 decoration-2 hover:underline focus:outline-none focus:underline font-medium"
-                    href="#">
-                    Misi DPM-PM
+                    Visi & Misi DPM-PM
                     <svg class="shrink-0 size-4 transition ease-in-out group-hover:translate-x-1 group-focus:translate-x-1"
                         xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"

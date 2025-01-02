@@ -25,4 +25,8 @@ class PageController extends Controller
     {
         return view('event_acara');
     }
+    public function about()
+    {
+        return view('about');
+    }
 }
