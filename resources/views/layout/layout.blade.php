@@ -15,6 +15,7 @@
     @include('layout.partials.dpm')
     @include('layout.partials.team')
     @include('layout.partials.news')
+    @include('layout.partials.aspirasi')
     @yield('script')
     @include('layout.partials.footer')
 </body>

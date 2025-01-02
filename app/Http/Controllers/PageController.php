@@ -29,4 +29,12 @@ class PageController extends Controller
     {
         return view('about');
     }
+    public function faq()
+    {
+        return view('faq');
+    }
+    public function login()
+    {
+        return view('login');
+    }
 }

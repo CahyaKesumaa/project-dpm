@@ -15,8 +15,7 @@
                         <img class="w-[500px] object-cover rounded-xl self-auto mx-auto"
                             src="{{ asset('img/LOGO DPM-PM.png') }}" alt="Logo DPM">
                     </figure>
-                    <h1 class="text-2xl font-bold text-gray-800 md:text-2xl md:leading-normal xl:text-3xl xl:leading-normal mb-3 uppercase">Sejarah</h1>
-                    
+                    <h1 class="text-2xl font-bold text-gray-800 md:text-2xl md:leading-normal xl:text-3xl xl:leading-normal mb-3 ">Sejarah</h1>
                     <p class="text-lg text-gray-800 text-justify"> BALMA STMIK STIKOM Bali didirikan pada tanggal 20
                         September 2006 dengan hasil kesepakatan antara mahasiswa jurusan Teknik Komputer (S1) dan jurusan
                         Manajemen Informatika (D3) untuk membentuk Badan Legislatif Mahasiswa, yang kemudian pada tahun 2019
@@ -45,8 +44,7 @@
                 </blockquote>
 
                 <div class="text-justify ">
-                    <ol
-                        class="text-lg font-medium text-gray-800 list-disc list-outside list-decimal flex flex-col space-y-3">
+                    <ol class="text-lg font-medium text-gray-800 list-outside list-decimal flex flex-col space-y-3">
                         <li>Melakukan pendampingan seluruh kegiatan ORMAWA ITB STIKOM Bali, mulai dari persiapan kegiatan
                             hingga hari H dan setelah kegiatan.</li>
                         <li>Melakukan pendekatan baik secara personal maupun keorganisasian dengan harapan mau mendengarkan

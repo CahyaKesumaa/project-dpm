@@ -106,8 +106,8 @@
                                 </div>
                             </div>
                         </div>
-                        <a class="p-2 flex items-center text-sm text-gray-800 hover:text-gray-500 focus:outline-none focus:text-gray-500"
-                            href="#">
+                        <a class="p-2 flex items-center text-sm  hover:text-blue-500 focus:outline-none focus:text-blue-500 {{ Route::is('faq') ? "text-blue-600 font-bold" : "text-gray-800" }}"
+                            href="{{ route('faq') }}">
                             <svg class="shrink-0 size-4 me-3 md:me-2 block md:hidden"
                                 xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -124,8 +124,8 @@
                         <!-- Button Group -->
                         <div
                             class="relative flex flex-wrap items-center gap-x-1.5 md:ps-2.5 mt-1 md:mt-0 md:ms-1.5 before:block before:absolute before:top-1/2 before:-start-px before:w-px before:h-4 before:bg-gray-300 before:-translate-y-1/2">
-                            <a class="p-2 w-full flex items-center text-sm text-gray-800 hover:text-blue-500 focus:outline-none focus:text-blue-500"
-                                href="#">
+                            <a class="p-2 flex items-center text-sm  hover:text-blue-500 focus:outline-none focus:text-blue-500 {{ Route::is('login') ? "text-blue-600 font-bold" : "text-gray-800" }}"
+                                href="{{ route('login') }}">
                                 <svg class="shrink-0 size-4 me-3 md:me-2" xmlns="http://www.w3.org/2000/svg"
                                     width="24" height="24" viewBox="0 0 24 24" fill="none"
                                     stroke="currentColor" stroke-width="2" stroke-linecap="round"
